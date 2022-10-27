@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Lora;
+}
+
+body {
+    background-image: url("./asset/background.svg.svg");
+    font-size: 18px;
+    width: 640px;
+    margin: 40px auto 40px auto !important;
+}
+ header {
+    background-color:white;
+    padding: 20px 10px 20px 30px;
+ }
+ .nav {
+    background-color: #f05d5d;
+    padding: 20px;
+    font-family: Lora;
+ }
+ .nav a {
+    padding-left: 30px;
+ }
+ a:link {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+ }
+ section {
+    padding: 0;
+    background-color: #5000ff;
+    color: white;
+ }
+ h1{
+    padding: 30px;
+    font-size: 37px !important;
+ }
+ h2 {
+    padding: 30px;
+    font-size: 30px;
+ }
+ img {
+    width: fit-content;
+    max-width: 100%;
+    padding: 0;
+ }
+ .text {
+    padding: 20px 20px 20px 20px;
+ }
+section p {
+    font-size: 20px;
+    padding: 30px;
+}
+.bigp {
+    width: 600px;
+    padding-left: 30px;
+}
+.mapimg {
+    padding-top: 60px;
+    padding-left: 50px;
+}
+
+@media only screen and (max-width: 640px) {
+   h2 {
+      width: 100%;
+      display: flex;
+    justify-content: center;
+    padding-right: 110px;
+   }
+} 
